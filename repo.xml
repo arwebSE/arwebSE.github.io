@@ -1,14 +1,14 @@
 <repo>
 	<footerlinks>
 		<link>
-			<name>ARWeb_SE</name>
+			<name> ARWeb_SE</name>
 			<url>http://twitter.com/ARWeb_SE</url>
-			<iconclass>fa fa-twitter</iconclass>
+			<iconclass>fab fa-twitter</iconclass>
 		</link>
         <link>
-            <name>Paypal</name>
+            <name> Paypal</name>
             <url>http://paypal.me/aggesoft</url>
-            <iconclass>fa fa-paypal</iconclass>
+            <iconclass>fab fa-paypal</iconclass>
         </link>
 	</footerlinks>
 </repo>
