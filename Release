@@ -1,0 +1,9 @@
+Origin: ARWeb Repo
+Label: ARWeb Repo
+Suite: stable
+Version: 1.0
+Name: ARWebRepo
+Architectures: iphoneos-arm
+Components: main
+Description: ARWeb Cydia Repository
+Icon: file://CydiaIcon.png
