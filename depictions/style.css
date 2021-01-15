@@ -185,8 +185,8 @@ html.can-touch .link-item:active {
 	margin-top: 15px !important;
 }
 
-#packageName {
-	margin-top: 0px !important;
+.list-group-item p {
+    margin: auto;
 }
 
 @media (prefers-color-scheme: dark) {
