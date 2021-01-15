@@ -3,4 +3,7 @@
 This is the source code for my Cydia Repo.
 
 ## Credits
-[opa334](https://twitter.com/opa334dev) - For making his [repo](https://github.com/opa334/opa334.github.io) open source.
+
+[Ramenrepo](https://github.com/ramenrepo/ramenrepo.github.io) - Amazing styling for Reposi3.
+
+[Reposi3](https://github.com/supermamon/Reposi3) - Original repo template.
