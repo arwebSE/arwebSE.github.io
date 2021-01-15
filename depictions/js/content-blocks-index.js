@@ -48,7 +48,7 @@ function getContentBlocks() {
             "source" :"package>screenshots>screenshot",
             "render":function(element, source){
                 $("#screenshotsLink").remove();
-                if ($(source).size() == 0) {
+                if ($(source).length() == 0) {
                         return
                 }
                 // create screenshots link
@@ -72,7 +72,7 @@ function getContentBlocks() {
             "source" :"package>changelog>change",
             "render":function(element, source){
                 $("#changelogLink").remove();
-                if ($(source).size() == 0) {
+                if ($(source).length() == 0) {
                     return
                 }
                 // create changelog link
@@ -94,7 +94,7 @@ function getContentBlocks() {
             "source" :"package>links>link",
             "paragraphElement"	: "<li class='list-group-item'>",
             "render":function(element,source){
-                if ($(source).size()==0){
+                if ($(source).length()==0){
                     $('#externalLinksContainer').remove()
                 }
 

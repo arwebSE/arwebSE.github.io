@@ -51,65 +51,33 @@
 			</div>
 	</div>
 
-	<script type="text/javascript">
-	   function setAnchorTargets() {
-		 // if on Cydia, set link targets to _blank
-		 if (navigator.userAgent.search(/Cydia/) != -1) {
-		   $("a").each(function() {
-			 $(this).attr("target","_blank");
-		   });
-		 }
-	   }
-
-		var repoContents =  {
-			"#repoFooterLinks" :
-				{"type":"custom"
-					,"source":"repo>footerlinks>link"
-					,"render":function(element,source) {
-						$.each(source, function(index,data) {
-							var a = $("<a class='link-item list-group-item'>");
-							a.attr("href",$(data).find('url').text());
-							if ($(data).find('iconclass')) {
-								var i =  $("<span>")
-								i.attr("class",$(data).find('iconclass').text());
-								console.log(i);
-								$(a).append(i);
-							}
-							$(a).append($(data).find('name').text());
-							$(element).append(a);
-						}); //each
-					} //render
-				}
-		}
-		$( document ).ready(function() {
-			$.ajax({type: "GET", dataType: "xml",url : ("../repo.xml"),cache: false,
-				success : function(xml){
-						  data_loader_engine(repoContents,xml);
-				  setAnchorTargets();
-					  },
-				error: function() {
-				  $("#contactInfo").hide();
-				  setAnchorTargets();
-				}
-			}); //ajax
-
-
-		}); // ready
-
 	</script>
 	
 	
 	<h3 id="wells" class="page-header">Links</h3>
 	</div>
 
-	<div id="contactInfo">
+<!-- 	<div id="contactInfo">
 		<div class="container">
 			<ul class="list-group" id="repoFooterLinks">
 			</ul>
 		<br>
 		</div>
-	</div>
+	</div> -->
 	
+	<div id="contactInfo">
+		<div class="container">
+			<ul class="list-group" id="repoFooterLinks">
+				<a class="link-item list-group-item" href="http://twitter.com/ARWeb_SE" target="_blank">
+					<span class="fab fa-twitter"></span> ARWeb_SE
+				</a>
+				<a class="link-item list-group-item" href="http://paypal.me/aggesoft" target="_blank">
+					<span class="fab fa-paypal"></span> Paypal
+				</a>
+			</ul>
+		<br>
+		</div>
+	</div>
 
 </body>
 </html>
