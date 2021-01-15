@@ -52,3 +52,21 @@ Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=respringm
 Icon: http://arweb.se/cydia/RespringModule/img/logo.png
 Name: RespringModule
 
+Package: se.arweb.respringmodule
+Version: 1.1.5-2+debug
+Architecture: iphoneos-arm
+Maintainer: ARWeb
+Installed-Size: 176
+Depends: mobilesubstrate, com.opa334.ccsupport, firmware(>=11.0)
+Filename: ./debs/se.arweb.respringmodule_1.1.5-2+debug_iphoneos-arm.deb
+Size: 29728
+MD5sum: 270ef9ed514044a12f39fb3c0320d709
+SHA1: 7661febd7169aac92d1eecb299b47649b3790b35
+SHA256: a119dcdba870a7b90952b2c459e2010ca41ae04d008710f47ab01991f245ec13
+Section: Control Center (Modules)
+Description: A Control Center module that simply resprings your device!
+Author: ARWeb
+Depiction: https://arwebse.github.io/repo/depictions/?p=se.arweb.respringmodule
+Icon: http://arweb.se/cydia/RespringModule/img/logo.png
+Name: RespringModule
+

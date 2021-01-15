@@ -1,0 +1,28 @@
+<package>
+    <id>se.arweb.respringmodule</id>
+    <name>RespringModule</name>
+    <version>1.1.5</version>
+    <compatibility>
+        <firmware>
+            <miniOS>11.0</miniOS>
+            <maxiOS>14.2</maxiOS>
+            <otherVersions>unconfirmed</otherVersions>
+        </firmware>
+    </compatibility>
+    <dependencies>mobilesubstrate, CCSupport</dependencies>
+    <descriptionlist>
+        <description>A Control Center module that simply resprings your device!</description>
+        <longdescription><![CDATA[
+            · A CC Module that simplifies your respring-ing needs.<br>
+        ]]></longdescription>
+    </descriptionlist>
+    <screenshots>
+        <screenshot>
+            <image>ss1.jpg</image>
+        </screenshot>
+    </screenshots>
+    <changelog>
+        <change>Initial release</change>
+    </changelog>
+    <links></links>
+</package>
