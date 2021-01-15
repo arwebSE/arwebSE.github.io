@@ -4,7 +4,7 @@ function getContentBlocks() {
             "type":"custom",
             "source" :"package>screenshots>screenshot",
             "render" : function(element,source) {
-                if ($(source).size()==0) {
+                if ($(source).length == 0) {
                     $(element).append( $("<div class='alert alert-danger'>The aren't any screenshots for this package</div>") ); 
                     return;
                 }
