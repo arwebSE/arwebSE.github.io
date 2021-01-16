@@ -1,19 +1,19 @@
 <repo>
 	<footerlinks>
-		<link>
-            <name> GitHub</name>
-            <url>https://github.com/arwebSE</url>
-            <iconclass>fab fa-github</iconclass>
-        </link>
-		<link>
-			<name> ARWeb_SE</name>
-			<url>http://twitter.com/ARWeb_SE</url>
-			<iconclass>fab fa-twitter</iconclass>
-		</link>
         <link>
             <name> Paypal</name>
             <url>http://paypal.me/aggesoft</url>
             <iconclass>fab fa-paypal</iconclass>
+        </link>
+		<link>
+			<name> Twitter (ARWeb_SE)</name>
+			<url>http://twitter.com/ARWeb_SE</url>
+			<iconclass>fab fa-twitter</iconclass>
+		</link>
+        <link>
+            <name> GitHub (arwebSE)</name>
+            <url>https://github.com/arwebSE</url>
+            <iconclass>fab fa-github</iconclass>
         </link>
 	</footerlinks>
 </repo>
