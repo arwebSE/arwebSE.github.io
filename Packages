@@ -1,18 +1,37 @@
+Package: se.arweb.rebootmodule
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: ARWeb
+Installed-Size: 164
+Depends: mobilesubstrate, com.opa334.ccsupport, firmware(>=11.0)
+Filename: ./debs/se.arweb.rebootmodule_1.0.1_iphoneos-arm.deb
+Size: 19178
+MD5sum: 47346a70ce23bb6bcf43810ccf693565
+SHA1: 669f4be299feab7b4774c4b6e7d8419f5f130163
+SHA256: eb6ddbf8932f90fe2e7e7cbe8e0deaf85917807a59339892a58687428e73fbdc
+Section: Control Center (Modules)
+Description: A Control Center module that simply reboots your device!
+Author: ARWeb
+Depiction: https://arwebse.github.io/depictions/?p=se.arweb.rebootmodule
+Icon: https://arwebse.github.io/depictions/se.arweb.rebootmodule/Icon.png
+Name: RebootModule
+
 Package: se.arweb.respringmodule
-Version: 1.1.5-3+debug
+Version: 1.1.5
 Architecture: iphoneos-arm
 Maintainer: ARWeb
 Installed-Size: 176
 Depends: mobilesubstrate, com.opa334.ccsupport, firmware(>=11.0)
-Filename: ./debs/se.arweb.respringmodule_1.1.5-3+debug_iphoneos-arm.deb
-Size: 29724
-MD5sum: dbff6feb6d42f0220651b9a2ef080943
-SHA1: 8baeabc5150f6d5dba9269f03c4dc3cb8687ae4a
-SHA256: b6dfe2a09da1e3063ea6e67673d989b0bda004a117e2b8aee2cd6a8d2362c318
+Filename: ./debs/se.arweb.respringmodule_1.1.5_iphoneos-arm.deb
+Size: 29064
+MD5sum: 8f1ee8bb143a30d78d90720b87a02213
+SHA1: 31caf6adea4a4ec117e6ac70dc7dd697a9274ff9
+SHA256: 224aa5e75b593c983b22a5cdf68bd969476fa5dc4043b7b4a1469c85c910df01
 Section: Control Center (Modules)
 Description: A Control Center module that simply resprings your device!
 Author: ARWeb
 Depiction: https://arwebse.github.io/depictions/?p=se.arweb.respringmodule
-Icon: http://arweb.se/cydia/RespringModule/img/logo.png
+Icon: https://arwebse.github.io/depictions/se.arweb.respringmodule/Icon.png
 Name: RespringModule
+Old_depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=respringmoduleDp
 
