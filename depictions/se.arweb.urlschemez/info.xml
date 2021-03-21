@@ -1,0 +1,31 @@
+<package>
+    <id>se.arweb.urlschemez</id>
+    <name>URLSchemeZ</name>
+    <version>1.0.0</version>
+    <compatibility>
+        <firmware>
+            <miniOS>11.0</miniOS>
+            <maxiOS>14.2</maxiOS>
+            <otherVersions>unconfirmed</otherVersions>
+        </firmware>
+    </compatibility>
+    <dependencies>mobilesubstrate, CCSupport</dependencies>
+    <descriptionlist>
+        <description> A simple way to override the Cydia URLScheme to Zebra.</description>
+        <longdescription><![CDATA[
+            · A simple way to override the Cydia URLScheme to Zebra.<br>
+        ]]></longdescription>
+    </descriptionlist>
+    <screenshots>
+        <screenshot>
+            <image>ss1.jpg</image>
+        </screenshot>
+        <screenshot>
+            <image>ss2.jpg</image>
+        </screenshot>
+    </screenshots>
+    <changelog>
+        <change>• Initial release</change>
+    </changelog>
+    <links></links>
+</package>

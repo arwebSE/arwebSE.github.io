@@ -1,0 +1,31 @@
+<package>
+    <id>se.arweb.rebootmodule</id>
+    <name>RebootModule</name>
+    <version>1.0.0</version>
+    <compatibility>
+        <firmware>
+            <miniOS>11.0</miniOS>
+            <maxiOS>14.3</maxiOS>
+            <otherVersions>unconfirmed</otherVersions>
+        </firmware>
+    </compatibility>
+    <dependencies>mobilesubstrate, CCSupport</dependencies>
+    <descriptionlist>
+        <description>A CC module that simply reboots your device!</description>
+        <longdescription><![CDATA[
+            · A simple ControlCenter module that helps you reboot your device easily.<br>
+        ]]></longdescription>
+    </descriptionlist>
+    <screenshots>
+        <screenshot>
+            <image>ss1.jpg</image>
+        </screenshot>
+        <screenshot>
+            <image>ss2.jpg</image>
+        </screenshot>
+    </screenshots>
+    <changelog>
+        <change>• Init release</change>
+    </changelog>
+    <links></links>
+</package>

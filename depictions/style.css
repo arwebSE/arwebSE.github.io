@@ -1,13 +1,17 @@
 /* variables */
 :root {
     --primary-color: #4f89bb;
+    --text-color: #333;
+    --dark-color: #333;
+    --darker-color: #333;
+    --darkest-color: #333;
 }
 
 /* before ramen */
 body {
     margin: 1em;
-    color: #333;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; /* bootstrap 3 */
+    color: var(--text-color);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* bootstrap 3 */
 }
 .card {
     margin-bottom: 1em;
@@ -33,7 +37,7 @@ body {
     box-shadow: 0 0 0 0.25rem rgba(48, 128, 182, 0.5);
 }
 .btn-light {
-    color: #333;
+    color: var(--text-color);
     border-color: transparent;
 }
 
@@ -211,9 +215,14 @@ html.can-touch .link-item:active {
 }
 
 @media (prefers-color-scheme: dark) {
+    /** default to dark mode **/
+    :root {
+        --text-color: #eee;
+    }
+    
     body {
-        background-color: #1f1f1f;
-        color: #eee;
+        color: var(--text-color);
+        background-color:#1f1f1f;
     }
 
     .card-header {
@@ -225,7 +234,7 @@ html.can-touch .link-item:active {
 
     .list-group-item {
         background-color: #1f1f1f;
-        border-color:  #2f2f2f;;
+        border-color:  #2f2f2f;
     }
 
     .link-item:hover {
