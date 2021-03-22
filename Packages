@@ -1,14 +1,14 @@
 Package: se.arweb.rebootmodule
-Version: 1.0.1
+Version: 1.1.0
 Architecture: iphoneos-arm
 Maintainer: ARWeb
 Installed-Size: 164
 Depends: mobilesubstrate, com.opa334.ccsupport, firmware(>=11.0)
-Filename: ./debs/se.arweb.rebootmodule_1.0.1_iphoneos-arm.deb
-Size: 19178
-MD5sum: 47346a70ce23bb6bcf43810ccf693565
-SHA1: 669f4be299feab7b4774c4b6e7d8419f5f130163
-SHA256: eb6ddbf8932f90fe2e7e7cbe8e0deaf85917807a59339892a58687428e73fbdc
+Filename: ./debs/se.arweb.rebootmodule_1.1.0_iphoneos-arm.deb
+Size: 18996
+MD5sum: dd1a797fd05d115092aea066fe8b9d22
+SHA1: ba01987e194eee97147e15ae97d2dab11cd27094
+SHA256: 59a7a99f39fb7804a8c639b1b58f33fc5337883c29bc0679db549a315da73afc
 Section: Control Center (Modules)
 Description: A Control Center module that simply reboots your device!
 Author: ARWeb
