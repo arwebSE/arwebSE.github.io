@@ -1,3 +1,21 @@
+Package: se.arweb.jetsamfix
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: ARWeb
+Installed-Size: 168
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/se.arweb.jetsamfix_1.0.0_iphoneos-arm.deb
+Size: 4350
+MD5sum: 374b5ce9d23bfd50f05580e20c5799b0
+SHA1: 2501badfe28282e80716287c557932e6bffbf0e4
+SHA256: 31d5d39706b1343a1947631476f142a035a65e80eb1a67e73cd14e0adcca1f22
+Section: Tweaks
+Description: A workaround for crashes related to jetsam memory management.
+Author: ARWeb
+Depiction: https://arwebse.github.io/depictions/?p=se.arweb.jetsamfix
+Icon: https://arwebse.github.io/depictions/se.arweb.jetsamfix/icon.png
+Name: JetsamFix
+
 Package: se.arweb.rebootmodule
 Version: 1.1.0
 Architecture: iphoneos-arm
