@@ -1,0 +1,29 @@
+<package>
+    <id>se.arweb.jetsamfix</id>
+    <name>JetsamFix</name>
+    <version>1.0.0</version>
+    <compatibility>
+        <firmware>
+            <miniOS>14.0</miniOS>
+            <maxiOS>14.3</maxiOS>
+            <otherVersions>unconfirmed</otherVersions>
+        </firmware>
+    </compatibility>
+    <dependencies>mobilesubstrate</dependencies>
+    <descriptionlist>
+        <description>A workaround for Jetsam related daemon crashes.</description>
+        <longdescription><![CDATA[
+            · A fork of StopCrashingPls, that aims to further workaround fix Jetsam limit related daemon crashes.
+            The issue is still present in iOS14. This tweaks tries to prevent tweak injection for known problematic daemons.<br>
+        ]]></longdescription>
+    </descriptionlist>
+    <screenshots>
+        <screenshot>
+            <image>ss1.jpg</image>
+        </screenshot>
+    </screenshots>
+    <changelog>
+        <change>• Initial release</change>
+    </changelog>
+    <links></links>
+</package>
